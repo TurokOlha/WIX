@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a{
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=======================================================================================*/
+
+.header {
+	height: 611px;
+	background: #000000 url(_g6vaUhhepg.jpg) 100% 100% no-repeat;
+	background-size: cover; 
+}
+.wixLogo {
+	margin-left: 7%;
+}
+.main-heading {
+	margin: 15px 0 5px 0;
+	text-align: center;
+	font-size: 350%;
+	color:#3b3b3b;
+}
+.main-paragraph {
+	text-align: center;
+	margin: 5px 0;
+	font-size: 120%;
+	color:#3b3b3b;
+}
+.design {
+	margin: 4px 45%;
+	display:inline-block; /* Строчно-блочный элемент */
+	height: 50px;
+	width: 140px;
+	text-decoration: none; /* Убираем подчёркивание у ссылки */
+	background: rgb(167, 69, 191);
+	border-radius: 40px; /* Скругляем уголки */
+	color: white;
+}
+.para-design {
+	
+	text-align: center;
+	line-height: 50px;
+	font-size: 110%;
+}
+
+.design:hover {
+	background: rgb(196, 64, 163);
+}
+
+/*===================================================================================*/
+
+
+/*.opportunities{
+	overflow:hidden;
+	width:80%;
+	height: 300px;
+}
+.tabInLine{
+	white-space:nowrap;
+}
+.tabInLine li{
+	width:20%;
+	display:inline-block;
+	border:1px solid black;
+}
+*/
+.tabInLine {
+	padding: 5%  10%;
+	text-align: center;
+}
+       
+.ElemOfList {
+	display : inline-block;
+	width : 20%;
+	height: 200px;
+	padding: 0 25px;
+	vertical-align: top;
+	text-align: center;
+	border-right: 1px solid rgb(205,205,205);
+	color: #555555;
+}
+.lastChild {
+	border: none;
+}
+
+.ElemOfList h3 {
+	font-size: 1.5em;
+	padding: 0 30px;
+}
+/*====================================================================================*/
+hr {
+	margin: 20px 25%;
+}
+.ChoiseOfMaket-heading {
+	margin: 30px 0 10px 0;
+}
+.ChoiseOfMaket-btn {
+	margin: 20px 45% ;
+}
