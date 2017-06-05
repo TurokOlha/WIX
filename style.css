@@ -46,6 +46,10 @@ table {
 }
 
 /*=======================================================================================*/
+/*.allPage{
+	width: 100%;
+	margin: 0 auto;
+}*/
 
 .header {
 	height: 611px;
@@ -90,21 +94,11 @@ table {
 
 /*===================================================================================*/
 
+/*.content{
+	width: 100%;
+	margin: 0 auto;
+}*/
 
-/*.opportunities{
-	overflow:hidden;
-	width:80%;
-	height: 300px;
-}
-.tabInLine{
-	white-space:nowrap;
-}
-.tabInLine li{
-	width:20%;
-	display:inline-block;
-	border:1px solid black;
-}
-*/
 .tabInLine {
 	padding: 5%  10%;
 	text-align: center;
@@ -137,4 +131,95 @@ hr {
 }
 .ChoiseOfMaket-btn {
 	margin: 20px 45% ;
+}
+/*======================================================================================*/
+.BoxWithPhoto{
+	margin: 20px 10%;
+}
+.Photon {
+    float: left;
+    position: relative;
+    width: 340px;
+	height: 224px;
+	margin: 5px;
+}
+.PhotonImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 224px;
+}
+img:hover {
+	opacity:0.2;
+	-moz-opacity:0.2;
+	filter: alpha(opacity=80) black;
+	-khtml-opacity: 0.2;
+}
+.Photon:hover p{
+	display: block;
+    cursor: pointer;
+}
+
+.LinkAtPhoto{
+	display: none;
+    padding: 62px 0;
+    line-height: 100px;
+    text-align: center;
+    color: #000000;
+	font-size: 1.5em;
+	
+}
+/*======================================================================================*/
+
+.footer{
+	position:relative; 
+	background:white;
+	height:200px;
+	clear: both;
+}
+.ContentOfFooter{
+	position:absolute; 
+	bottom:0; 
+	background:rgb(246,246,246);
+	height: 70px;
+	width: 100%;
+}
+
+/*.footer {
+	height: 60px;
+	clear: both;
+	background-color: black;
+}
+.ContentOfFooter{
+	background-color: #eb0000;
+	height: 60px;
+	
+}*/
+.FooterInLine {
+	padding: 15px  5px;
+	text-align: center;
+}
+       
+.ElemOfFooter {
+	display : inline-block;
+	width : 20%;
+	height: 40px;
+	padding: 0 5px;
+	vertical-align: top;
+	text-align: center;
+	border-right: 1px solid rgb(109, 109, 109);
+	color: #555555;
+	font-size: 95%;
+	line-height: 30px;
+}
+.FirstChild{
+	line-height: normal;
+	text-align:left;
+}
+.ElemOfFooter a{
+	color:rgb(138, 169,238);
+}
+.lastChild {
+	border: none;
 }
